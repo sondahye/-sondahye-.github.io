@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="content">
+        <h2 id="clock">00:00:00</h2>
+        <form id="login-form" class="hidden">
+            <input required maxlength="15" type="text" id="login_input" />
+            <label>Name</label>
+            <span></span>
+            <input type="submit" value="LOGIN" class="hidden" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <form id="todo-form">
+            <input required type="text" placeholder="Write a To Do and Press">
+        </form>
+        <ul id="todo-list"></ul>
+    </div>    
+    <script src="../javascript/clock.js"></script>
+    <script src="../javascript/greeting.js"></script>
+    <script src="../javascript/quotes.js"></script>
+    <script src="../javascript/background.js"></script>
+    <script src="../javascript/todo.js"></script>
+    <script src="../javascript/weather.js"></script>
+</body>
+</html>
